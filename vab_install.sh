@@ -16,7 +16,7 @@ fi
 echo '================================================================'
 echo '                     install dependencies'
 echo '================================================================'
-pkg update && pkg upgrade && pkg install aapt apksigner dx ecj openjdk-17 git wget
+pkg update && pkg upgrade && pkg install wget && wget https://raw.githubusercontent.com/MasterDevX/java/master/installjava && bash installjava
 
 echo '================================================================'
 echo '                     download sdk.zip'
