@@ -21,7 +21,13 @@ echo '================================================================'
 echo '                     Installing Dependencies'
 echo '================================================================'
 pkg update -y && pkg upgrade -y
-pkg install -y aapt apksigner dx ecj openjdk-17 git wget
+pkg install -y aapt
+pkg install -y apksigner
+pkg install -y dx
+pkg install -y ecj
+pkg install -y openjdk-21
+pkg install -y git
+pkg install -y wget
 
 echo '================================================================'
 echo '                     Downloading Latest SDK'
