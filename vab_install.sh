@@ -21,7 +21,7 @@ pkg update && pkg upgrade && pkg install aapt apksigner dx ecj openjdk-17 git wg
 echo '================================================================'
 echo '                     download sdk.zip'
 echo '================================================================'
-cd ~ && wget https://github.com/Lzhiyong/termux-ndk/releases/download/android-sdk/android-sdk-aarch64.zip
+cd ~ && wget https://github.com/lzhiyong/termux-ndk/releases/download/android-sdk/android-sdk-aarch64.zip
 echo '================================================================'
 echo '                               unzip sdk.zip'
 echo '================================================================'
@@ -34,15 +34,15 @@ cd ~ && rm android-sdk-aarch64.zip
 echo '================================================================'
 echo '                     download ndk.zip'
 echo '================================================================'
-cd ~ && wget https://github.com/lzhiyong/termux-ndk/releases/download/android-ndk/android-ndk-r26b-aarch64.zip
+cd ~ && wget https://github.com/lzhiyong/termux-ndk/releases/download/android-ndk/android-ndk-r27b-aarch64.zip
 echo '================================================================'
 echo '                               unzip ndk.zip'
 echo '================================================================'
-cd ~ && unzip -qq android-ndk-r26b-aarch64.zip
+cd ~ && unzip -qq android-ndk-r27b-aarch64.zip
 echo '================================================================'
 echo '                               tidy ndk.zip'
 echo '================================================================'
-cd ~ && rm android-ndk-r26b-aarch64.zip
+cd ~ && rm android-ndk-r27b-aarch64.zip
 
 
 echo '================================================================'
